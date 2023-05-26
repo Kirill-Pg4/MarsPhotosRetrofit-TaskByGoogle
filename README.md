@@ -1,31 +1,31 @@
-MarsPhotos - Starter Code
-==================================
+# Mars Photos
 
-Starter code for [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course).
+This is an Android application developed using Kotlin and Android Studio. It retrieves Mars snapshots from a JSON API using Retrofit2 and displays them on the screen.I created this project under the guidance of a course from **Google**(
+This is a **training exercise**, but I found it interesting, so I decided to share it!).
 
-Introduction
-------------
+## Authors
 
-Using this stater code you will create MarsPhotos is a demo app that shows actual images of Mar's surface. These images are
-real-life photos from Mars captured by NASA's Mars rovers. The data is stored on a Web server
-as a REST web service.  The solution app will demonstrate the use of [Retrofit](https://square.github.io/retrofit/) to make REST requests to the web service, [Moshi](https://github.com/square/moshi) to
-handle the deserialization of the returned JSON to Kotlin data objects, and [Coil](https://coil-kt.github.io/coil/) to load images by URL.
+- [***@Kirill Pugach***](https://github.com/Kirill-Pg4)
 
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[LiveData](https://developer.android.com/topic/libraries/architecture/livedata), and
-[Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding 
-adapters.
+## Features
 
-Pre-requisites
---------------
+- Fetches Mars snapshots from a [**JSON API**]("https://android-kotlin-fun-mars-server.appspot.com/photos") .
+- Displays the snapshots on the screen.
+- Provides a user-friendly interface for browsing the snapshots.
 
-You need to know:
-- How to create and use fragments.
-- How to use architecture components including ViewModel, and LiveData.
-- How to use coroutines for long-running tasks.
+## Technologies and Tools
+
+- Programming language: [**Kotlin**](https://kotlinlang.org/).
+- Android framework and libraries.
+- [**Retrofit2**]("https://square.github.io/retrofit/") for making API requests.
+- Gson for parsing JSON responses.
+- [**Coil**]("https://coil-kt.github.io/coil/") for image loading and caching.
+- [**Kotlin Coroutines**](https://kotlinlang.org/docs/coroutines-basics.html) for asynchronous programming.
+- [**RecyclerView**](https://developer.android.com/develop/ui/views/layout/recyclerview) for displaying the snapshots.
 
 
-Getting Started
----------------
 
-1. Download and run the app.
+
+## License
+
+[![Apache](https://img.shields.io/badge/LICENSE-2.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
