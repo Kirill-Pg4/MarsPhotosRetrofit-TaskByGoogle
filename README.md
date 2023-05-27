@@ -9,7 +9,7 @@ This is a **training exercise**, but I found it interesting, so I decided to sha
 
 ## Features
 
-- Fetches Mars snapshots from a [**JSON API**]("https://android-kotlin-fun-mars-server.appspot.com/photos") .
+- Fetches Mars snapshots from a [**JSON API**](https://android-kotlin-fun-mars-server.appspot.com/photos) .
 - Displays the snapshots on the screen.
 - Provides a user-friendly interface for browsing the snapshots.
 
@@ -17,9 +17,9 @@ This is a **training exercise**, but I found it interesting, so I decided to sha
 
 - Programming language: [**Kotlin**](https://kotlinlang.org/).
 - Android framework and libraries.
-- [**Retrofit2**]("https://square.github.io/retrofit/") for making API requests.
+- [**Retrofit2**](https://proandroiddev.com/moshi-with-retrofit-in-kotlin-%EF%B8%8F-a69c2621708b) for making API requests.
 - Gson for parsing JSON responses.
-- [**Coil**]("https://coil-kt.github.io/coil/") for image loading and caching.
+- [**Coil**](https://coil-kt.github.io/coil/) for image loading and caching.
 - [**Kotlin Coroutines**](https://kotlinlang.org/docs/coroutines-basics.html) for asynchronous programming.
 - [**RecyclerView**](https://developer.android.com/develop/ui/views/layout/recyclerview) for displaying the snapshots.
 
